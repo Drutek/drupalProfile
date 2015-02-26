@@ -1,0 +1,9 @@
+<?php
+
+function drutek_install() {
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();
+
+  $modules = array('overlay', 'toolbar');
+  module_disable($modules);
+}
