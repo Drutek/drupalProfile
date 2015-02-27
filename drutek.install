@@ -7,7 +7,7 @@ function drutek_install() {
   $modules = array('overlay', 'toolbar');
   module_disable($modules);
 
-  theme_enable(array('bootstrap', 'adminimal'));
+  theme_enable(array('bootstrap', 'adminimal_theme'));
 
   variable_set('theme_default', 'bootstrap');
   variable_set('admin_theme', 'adminimal');
