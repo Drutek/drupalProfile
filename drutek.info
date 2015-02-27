@@ -26,7 +26,7 @@ dependencies[] = rdf
 ;Drutek Extras
 dependencies[] = views
 dependencies[] = module_filter
-dependencies[] = admin_menu_toolbar
+dependencies[] = adminimal_toolbar
 dependencies[] = features
 dependencies[] = pathauto
 dependencies[] = ckeditor
