@@ -27,3 +27,6 @@ dependencies[] = rdf
 dependencies[] = views
 dependencies[] = module_filter
 dependencies[] = admin_menu_toolbar
+dependencies[] = pathauto
+dependencies[] = ckeditor
+dependencies[] = imce
