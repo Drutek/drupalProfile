@@ -6,4 +6,8 @@ function drutek_install() {
 
   $modules = array('overlay', 'toolbar');
   module_disable($modules);
+
+  theme_enable(array('bootstrap'));
+
+  variable_set('theme_default', 'bootstrap');
 }
